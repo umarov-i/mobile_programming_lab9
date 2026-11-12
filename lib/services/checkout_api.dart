@@ -1,7 +1,6 @@
 class CheckoutException implements Exception {
   const CheckoutException(this.message);
   final String message;
-
   @override
   String toString() => message;
 }
